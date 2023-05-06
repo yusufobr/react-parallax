@@ -1,11 +1,12 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Text from "./Text";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Parallax pages={2} style={{ top: "0", left: "0" }} class="animation">
-        <ParallaxLayer offset={0} speed={0.2}>
+        <ParallaxLayer offset={0} speed={0}>
           <div class="animation_layer parallax" id="eight"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.13}>
@@ -29,8 +30,10 @@ function App() {
         <ParallaxLayer offset={0} speed={.03}>
           <div class="animation_layer parallax" id="one"></div>
         </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.5}>
+          <Text />
+        </ParallaxLayer>
       </Parallax>
-      <div className="max"></div>
     </div>
   );
 }

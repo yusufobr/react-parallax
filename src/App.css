@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 201, 52);
+  background-color: #ff8e42;
 }
 
 .animation, .animation_layer {
@@ -14,7 +14,7 @@ body {
 
 .animation_layer {
   background-position: bottom center;
-  background-size: auto 1038px;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   position: absolute;
@@ -47,8 +47,4 @@ body {
 }
 #one {
   background-image: url(/src/images/parallax\ 1@2x.png);
-}
-
-.max {
-  height: 2000px;
 }

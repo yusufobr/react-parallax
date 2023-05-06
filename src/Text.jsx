@@ -3,7 +3,7 @@ import React from "react";
 function Text() {
   return (
     <div className="my-24 w-[35%] mx-auto text-center text-lg">
-      <h1 className="my-8 font-semibold">Hello World</h1>
+      <h1 className="my-8 text-lg font-semibold">Hello World</h1>
       <p>
         This project was made with an abundance of love and passion. Every line
         of code, every design element, and every feature was meticulously

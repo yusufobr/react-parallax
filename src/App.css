@@ -25,26 +25,26 @@ body {
 }
 
 #eight {
-  background-image: url(/src/images/parallax\ 8@2x.png);
+  background-image: url(./src/images/parallax\ 8@2x.png);
 }
 #seven {
-  background-image: url(/src/images/parallax\ 7@2x.png);
+  background-image: url(./src/images/parallax\ 7@2x.png);
 }
 #six {
-  background-image: url(/src/images/parallax\ 6@2x.png);
+  background-image: url(./src/images/parallax\ 6@2x.png);
 }
 #five {
-  background-image: url(/src/images/parallax\ 5@2x.png);
+  background-image: url(./src/images/parallax\ 5@2x.png);
 }
 #four {
-  background-image: url(/src/images/parallax\ 4@2x.png);
+  background-image: url(./src/images/parallax\ 4@2x.png);
 }
 #three {
-  background-image: url(/src/images/parallax\ 3@2x.png);
+  background-image: url(./src/images/parallax\ 3@2x.png);
 }
 #two {
-  background-image: url(/src/images/parallax\ 2@2x.png);
+  background-image: url(./src/images/parallax\ 2@2x.png);
 }
 #one {
-  background-image: url(/src/images/parallax\ 1@2x.png);
+  background-image: url(./src/images/parallax\ 1@2x.png);
 }
